@@ -14,6 +14,7 @@ O desafio é desenvolver isso em apenas 24 horas no máximo.
 Segue-se os seguintes passos para o desenvolvimento:
 
 -Definição iniciar numa folha, feito a mão (Rascunho)
+	Apenas para curiosidade quem quiser ver o rascunho está nesse link https://drive.google.com/file/d/0BwrtDApX-cHJdUVkbVAzei1RYjg/view?usp=sharing
 
 -Definição dos requisitos
 
@@ -41,3 +42,5 @@ Segue-se os seguintes passos para o desenvolvimento:
 
 horário de Inicio: 23:15 de 10 de dezembro
 horário máximo final: 23:15 de 11 de dezembro
+
+
