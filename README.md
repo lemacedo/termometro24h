@@ -19,8 +19,9 @@ Segue-se os seguintes passos para o desenvolvimento:
 -Talvez tirar uma média de vários sistemas de clima
 -Quais as classes necessário e métodos (back-end)
 -Armazenar os dados em JSON para ser acessível pelo front end
--Criar um termômetro usando HTML5, CSS3 e Javascript 
+-Criar um termômetro usando HTML5, CSS3 e Javascript
 -Fazer o "mercúrio" alterar conforme a temperatura
 -Tudo certo, nada quebrou ? Ok
 -Fim :)
+
 
