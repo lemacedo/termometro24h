@@ -1,0 +1,7 @@
+Requisitos
+
+Pegar temperatura de um terceiro
+
+Visualização do termêmetro
+
+"Movimento" do mercúrio dependedo da temperatura
