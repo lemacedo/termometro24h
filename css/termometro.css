@@ -1,0 +1,53 @@
+
+#termometro{
+	width: 600px;
+	height: 600px;
+}
+
+
+/* Onde mercúrio sobe ou desce  */
+#tubo{
+	width: 50px;
+	height:500px;
+	position: absolute;
+	top: 5%;
+	left: 35%;
+	background: #eee;
+	border-radius: 50px ;
+	z-index: 1;
+}
+
+
+/* 
+Valores para flutuação do mercurio
+heigth  top
+400		 05
+300		 15
+200		 25
+100 	 35
+50		 40
+*/
+#mercurio{
+	width: 50px;
+	height: 300px;
+	position: absolute;
+	top: 15%;
+	left: 35%;
+	background: red;
+	border-radius: 20px;
+	z-index: 3;
+	
+
+}
+
+/* Parte de baixo do termometro, "reservatório" de mercúrio */
+#bulbo{
+	width: 150px;
+	height: 150px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	top: 40%;
+	left: 30%;
+	z-index: 2;
+}
