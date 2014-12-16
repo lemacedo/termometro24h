@@ -1,17 +1,24 @@
 $(document).ready(function(){
     $("#entraTemperatura").blur(function(){
-        tempPadrao = 560;
+        TEMPPADRAO = 560;
         var mercurio = document.getElementById('mercurio');
         var novaTemp = $(this).val();
 
-        novaTemp = novaTemp * 10;
+        //Se informar temeperatura além de 0 até 50 aparece um alert
+
+        if(novaTemp < 0 || novaTemp > 50){
+            alert('Temperatura fora do padrão, \n por favor informe entre 0 à 50')
+        }else{
+
+            novaTemp = novaTemp * 10;
 
 
-        var novoTop = tempPadrao - novaTemp;
+            var novoTop = TEMPPADRAO - novaTemp;
 
 
-        mercurio.style.top = novoTop+'px';
-        mercurio.style.height =  novaTemp+'px';
+            mercurio.style.top = novoTop+'px';
+            mercurio.style.height =  novaTemp+'px';
+        }
     });
 
 });
