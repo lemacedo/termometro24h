@@ -1,3 +1,12 @@
+#temperaturaManual{
+	width: 500px;
+	float: left;
+}
+
+#corpoTermo{
+	width: 500px;
+	height: 700px;
+}
 
 #termometro{
 	width: 600px;
@@ -20,25 +29,32 @@
 
 
 /*
-Valores para flutuação do mercurio
-heigth  top
-400		 05
-300		 15
-200		 25
-100 	 35
-50		 40
+	Valores para flutuação do mercurio
+	heigth  top
+	400		 05
+	300		 15
+	200		 25
+	100 	 35
+	50		 40
 */
+
 #mercurio{
 	width: 50px;
-	height: 300px;
-	position: absolute;
-	top: 15%;
-	left: 35%;
+	height: 400px;
+	position: relative;
+	top: 100px;
+	left: 66%;/*
+	Valores para flutuação do mercurio
+	heigth  top
+	400		 05
+	300		 15
+	200		 25
+	100 	 35
+	50		 40
+*/
 	background: red;
-	border-radius: 20px;
+	border-radius: 20px 20px 0 0;
 	z-index: 3;
-
-
 }
 
 /* Parte de baixo do termometro, "reservatório" de mercúrio */
