@@ -41,9 +41,9 @@
 
 #mercurio{
 	width: 50px;
-	height: 400px;
+	height: 10px;
 	position: relative;
-	top: 120px;
+	top: 520px;
 	left: 66%;
 	transition: all 2s linear;
 

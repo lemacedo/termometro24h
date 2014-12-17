@@ -14,12 +14,12 @@ $(document).ready(function(){
 
                 novaTemp = novaTemp * 10;
 
-
                 var novoTop = TEMPPADRAO - novaTemp;
 
 
+
                 mercurio.style.top = novoTop+'px';
-                mercurio.style.transition.height =  novaTemp+'px 0.8s ';
+                mercurio.style.height =  novaTemp +'px';
             }
 
     });
