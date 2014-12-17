@@ -3,22 +3,27 @@ $(document).ready(function(){
         TEMPPADRAO = 560;
         var mercurio = document.getElementById('mercurio');
         var novaTemp = $(this).val();
+        alert('novaTemp');
 
         //Se informar temeperatura além de 0 até 50 aparece um alert
 
-        if(novaTemp < 0 || novaTemp > 50){
-            alert('Temperatura fora do padrão, \n por favor informe entre 0 à 50')
-        }else{
-
-            novaTemp = novaTemp * 10;
 
 
-            var novoTop = TEMPPADRAO - novaTemp;
+            if(novaTemp < 0 || novaTemp > 50){
+                alert('Temperatura fora do padrão, \n por favor informe entre 0 à 50')
+            }else{
+                    alert(novaTemp);
+
+                novaTemp = novaTemp * 10;
 
 
-            mercurio.style.top = novoTop+'px';
-            mercurio.style.height =  novaTemp+'px';
-        }
+                var novoTop = TEMPPADRAO - novaTemp;
+
+
+                mercurio.style.top = novoTop+'px';
+                mercurio.style.height =  novaTemp+'px';
+            }
+
     });
 
 });

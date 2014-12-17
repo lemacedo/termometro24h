@@ -3,6 +3,11 @@
 	float: left;
 }
 
+#graus{
+	transform: rotate(90deg);
+}
+
+
 #corpoTermo{
 	width: 500px;
 	height: 700px;
