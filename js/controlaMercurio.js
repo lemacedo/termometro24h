@@ -12,7 +12,6 @@ $(document).ready(function(){
             if(novaTemp < 0 || novaTemp > 50 || novaTemp == ''){
                 alert('Temperatura fora do padrão, \n por favor informe entre 0 à 50')
             }else{
-                    alert(novaTemp);
 
                 novaTemp = novaTemp * 10;
 
