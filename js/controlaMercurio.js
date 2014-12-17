@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#entraTemperatura").blur(function(){
-        TEMPPADRAO = 560;
+        TEMPPADRAO = 475;
         var mercurio = document.getElementById('mercurio');
         var novaTemp = $(this).val();
 
@@ -8,8 +8,8 @@ $(document).ready(function(){
 
 
 
-            if(novaTemp < 0 || novaTemp > 50 || novaTemp == ''){
-                alert('Temperatura fora do padrão, \n por favor informe entre 0 à 50')
+            if(novaTemp < 0 || novaTemp > 40 || novaTemp == ''){
+                alert('Temperatura fora do padrão, \n por favor informe entre 0 à 40')
             }else{
 
                 novaTemp = novaTemp * 10;
@@ -19,7 +19,7 @@ $(document).ready(function(){
 
 
                 mercurio.style.top = novoTop+'px';
-                mercurio.style.height =  novaTemp+'px';
+                mercurio.style.transition.height =  novaTemp+'px 0.8s ';
             }
 
     });

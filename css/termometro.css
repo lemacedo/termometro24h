@@ -3,11 +3,6 @@
 	float: left;
 }
 
-#graus{
-	transform: rotate(270deg);
-	color: red;
-}
-
 
 #corpoTermo{
 	width: 500px;
@@ -48,7 +43,7 @@
 	width: 50px;
 	height: 400px;
 	position: relative;
-	top: 100px;
+	top: 120px;
 	left: 66%;
 	transition: all 2s linear;
 
@@ -77,4 +72,10 @@
 	top: 40%;
 	left: 30%;
 	z-index: 2;
+}
+
+
+#graus{
+	transform: rotate(270deg);
+	color: red;
 }
