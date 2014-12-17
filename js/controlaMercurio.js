@@ -3,7 +3,6 @@ $(document).ready(function(){
         TEMPPADRAO = 560;
         var mercurio = document.getElementById('mercurio');
         var novaTemp = $(this).val();
-        alert('novaTemp');
 
         //Se informar temeperatura além de 0 até 50 aparece um alert
 
