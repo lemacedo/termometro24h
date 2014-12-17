@@ -49,7 +49,11 @@
 	height: 400px;
 	position: relative;
 	top: 100px;
-	left: 66%;/*
+	left: 66%;
+	transition: all 2s linear;
+
+
+/*
 	Valores para flutuação do mercurio
 	heigth  top
 	400		 05
