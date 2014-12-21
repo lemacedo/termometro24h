@@ -1,3 +1,13 @@
+#temperaturaManual{
+	width: 500px;
+	float: left;
+}
+
+
+#corpoTermo{
+	width: 500px;
+	height: 700px;
+}
 
 #termometro{
 	width: 600px;
@@ -8,13 +18,14 @@
 /* Onde mercúrio sobe ou desce  */
 #vidro, #tubo{
 	width: 50px;
-	height:500px;
+	height:600px;
 	position: absolute;
 	top: 5%;
 	left: 35%;
 	background: #eee;
 	border-radius: 50px ;
 	z-index: 1;
+	border: 2px solid #FFF;
 }
 
 #vidro{
@@ -25,6 +36,7 @@
 }
 
 
+<<<<<<< HEAD
 /* 
 Valores para flutuação do mercurio
 heigth  top
@@ -34,18 +46,39 @@ heigth  top
 100 	 35
 50		 40
 1		 45
+=======
+/*
+	Valores para flutuação do mercurio
+	heigth  top
+	400		 05
+	300		 15
+	200		 25
+	100 	 35
+	50		 40
+>>>>>>> a4314ce94ed232a8c487a876ce1f2f169716144e
 */
+
 #mercurio{
 	width: 50px;
-	height: 300px;
-	position: absolute;
-	top: 15%;
-	left: 35%;
-	background: red;
-	border-radius: 20px;
-	z-index: 3;
-	
+	height: 10px;
+	position: relative;
+	top: 620px;
+	left: 66%;
+	transition: all 2s linear;
 
+
+/*
+	Valores para flutuação do mercurio
+	heigth  top
+	400		 05
+	300		 15
+	200		 25
+	100 	 35
+	50		 40
+*/
+	background: red;
+	border-radius: 20px 20px 0 0;
+	z-index: 3;
 }
 
 /* Parte de baixo do termometro, "reservatório" de mercúrio */
@@ -55,11 +88,12 @@ heigth  top
 	border-radius: 100%;
 	background: red;
 	position: absolute;
-	top: 40%;
+	top: 50%;
 	left: 30%;
 	z-index: 2;
 }
 
+<<<<<<< HEAD
 #vidro-bulbo{
 	width: 70px ;
 	height: 110px;
@@ -69,4 +103,10 @@ heigth  top
 	left: 38%;
 	border-radius: 0% 50% 50% 0%;
 	background-image: linear-gradient( to right, white, purple;
+=======
+
+#graus{
+	transform: rotate(270deg);
+	color: red;
+>>>>>>> a4314ce94ed232a8c487a876ce1f2f169716144e
 }
