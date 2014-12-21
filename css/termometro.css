@@ -6,7 +6,7 @@
 
 
 /* Onde mercúrio sobe ou desce  */
-#tubo{
+#vidro, #tubo{
 	width: 50px;
 	height:500px;
 	position: absolute;
@@ -15,6 +15,13 @@
 	background: #eee;
 	border-radius: 50px ;
 	z-index: 1;
+}
+
+#vidro{
+	opacity: 0.0;
+	background: #fff;
+	z-index: 4;
+	border: 1px solid #ccc
 }
 
 
@@ -26,6 +33,7 @@ heigth  top
 200		 25
 100 	 35
 50		 40
+1		 45
 */
 #mercurio{
 	width: 50px;
@@ -41,7 +49,7 @@ heigth  top
 }
 
 /* Parte de baixo do termometro, "reservatório" de mercúrio */
-#bulbo{
+ #bulbo{
 	width: 150px;
 	height: 150px;
 	border-radius: 100%;
@@ -50,4 +58,15 @@ heigth  top
 	top: 40%;
 	left: 30%;
 	z-index: 2;
+}
+
+#vidro-bulbo{
+	width: 70px ;
+	height: 110px;
+	z-index: 3;
+	position: absolute;
+	top: 42%;
+	left: 38%;
+	border-radius: 0% 50% 50% 0%;
+	background-image: linear-gradient( to right, white, purple;
 }

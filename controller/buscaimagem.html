@@ -29,11 +29,9 @@
 <script>
 (function() {
   $.getJSON(
-    "http://developers.agenciaideias.com.br/tempo/json/itarare-SP"+'.json', 
+    "http://api.openweathermap.org/data/2.5/find?q=sao+paulo", 
     function(data){
-      $('#nome').text(data.agora.temperatura); 
-      $('#perfil').text(data.perfil);
-      $('#horario').text(data.horario);
+      $('#nome').text(data.count); 
     }
   );
 })();
@@ -41,3 +39,47 @@
  
 </body>
 </html>
+
+{
+    "message":"accurate",
+    "cod":"200",
+    "count":1,
+    "list":
+      [
+        {
+          "id":3448439,
+          "name":"Sao Paulo",
+          "coord":
+            {
+              "lon":-46.636108,
+              "lat":-23.547501
+            },
+          "main":
+            {
+              "temp":294.43,
+              "pressure":1012,
+              "humidity":83,
+              "temp_min":294.15,
+              "temp_max":294.65
+            },
+            "dt":1418530874,
+            "wind":
+                {
+                  "speed":1.5,
+                  "deg":290
+                },
+            "sys":
+                {"country":"BR"},
+            "clouds":{"all":75},
+            "weather":
+              [
+                {
+                  "id":803,
+                  "main":"Clouds",
+                  "description":"broken clouds",
+                  "icon":"04n"
+                }
+              ]
+            }
+      ]
+    }

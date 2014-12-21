@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	<script>
+  var yqlCallback = function(data) {
+    var wind = data.query.results.channel.wind;
+    alert(wind.chill);
+  };
+</script>
+
+<script src="http://api.openweathermap.org/data/2.5/find?q=sao+paulo"></script>
+</head>
+<body>
+	
+</body>
+</html>
