@@ -36,8 +36,7 @@
 }
 
 
-<<<<<<< HEAD
-/* 
+*/
 Valores para flutuação do mercurio
 heigth  top
 400		 05
@@ -46,36 +45,15 @@ heigth  top
 100 	 35
 50		 40
 1		 45
-=======
-/*
-	Valores para flutuação do mercurio
-	heigth  top
-	400		 05
-	300		 15
-	200		 25
-	100 	 35
-	50		 40
->>>>>>> a4314ce94ed232a8c487a876ce1f2f169716144e
 */
 
 #mercurio{
 	width: 50px;
-	height: 10px;
+	height: 900px;
 	position: relative;
-	top: 620px;
+	top: 400px;
 	left: 66%;
 	transition: all 2s linear;
-
-
-/*
-	Valores para flutuação do mercurio
-	heigth  top
-	400		 05
-	300		 15
-	200		 25
-	100 	 35
-	50		 40
-*/
 	background: red;
 	border-radius: 20px 20px 0 0;
 	z-index: 3;

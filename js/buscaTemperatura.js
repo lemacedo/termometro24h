@@ -9,9 +9,8 @@ $(function(){
 
 			temp = converteCelsus(temp);
 
-			$('#entraTemperatura').val(temp);
 
-			$dados.append('<li> Temperatura: '+ temp +' </li>');
+			//$dados.append('<li> Temperatura: '+ temp +' </li>');
 		}
 	});
 });
