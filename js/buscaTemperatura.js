@@ -9,8 +9,18 @@ $(function(){
 
 			temp = converteCelsus(temp);
 
+			$('#entraTemperatura').val(temp);
+			$('#mercurio').css('height','200');
 
-			//$dados.append('<li> Temperatura: '+ temp +' </li>');
+			novaTemp = temp * 10;
+
+            var novoTop = 600 - novaTemp;
+
+
+
+            mercurio.style.top = novoTop+'px';
+            mercurio.style.height =  novaTemp +'px';
+
 		}
 	});
 });

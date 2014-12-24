@@ -11,7 +11,7 @@
 
 #termometro{
 	width: 600px;
-	height: 600px;
+	height: 700px;
 }
 
 
@@ -36,23 +36,14 @@
 }
 
 
-*/
-Valores para flutuação do mercurio
-heigth  top
-400		 05
-300		 15
-200		 25
-100 	 35
-50		 40
-1		 45
-*/
+
 
 #mercurio{
 	width: 50px;
 	height: 10px;
 	position: relative;
 	top: 620px;
-	left: 66%;
+	left: 55%;
 	transition: all 2s linear;
 	background: red;
 	border-radius: 20px 20px 0 0;
@@ -71,7 +62,7 @@ heigth  top
 	z-index: 2;
 }
 
-<<<<<<< HEAD
+
 #vidro-bulbo{
 	width: 70px ;
 	height: 110px;
@@ -81,10 +72,10 @@ heigth  top
 	left: 38%;
 	border-radius: 0% 50% 50% 0%;
 	background-image: linear-gradient( to right, white, purple;
-=======
+}
 
 #graus{
 	transform: rotate(270deg);
 	color: red;
->>>>>>> a4314ce94ed232a8c487a876ce1f2f169716144e
+
 }
