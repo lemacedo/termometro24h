@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#entraTemperatura").blur(function(){
-        TEMPPADRAO = 600;
+        TEMPPADRAO = 590;
         var mercurio = document.getElementById('mercurio');
         var novaTemp = $(this).val();
 
